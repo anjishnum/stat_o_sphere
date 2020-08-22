@@ -1,5 +1,5 @@
-'''Q: Why does degree of freedom reduction work for sample variance calculation?
-Ans: So as to compensate for the reduction in variance, due to the population mean probabilistically not being equal to the sample mean '''
+'''Why does degree of freedom reduction work for sample variance calculation?
+-> So as to compensate for the reduction in variance, due to the population mean probabilistically not being equal to the sample mean '''
 
 import numpy as np
 import matplotlib.pyplot as plt
