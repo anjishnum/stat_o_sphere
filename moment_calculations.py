@@ -3,7 +3,14 @@
 class moment:
 
     def __init__(self):
-        ar = input("Enter array: ")
+        a = input("Enter array: ")
+        ar = []
+        for i in a:
+            try:
+                type(int(i))
+                ar.append(int(i))
+            except:
+                continue
         print(self.mean(ar))
 
     # Population mean
